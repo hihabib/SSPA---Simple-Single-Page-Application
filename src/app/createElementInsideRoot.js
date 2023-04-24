@@ -1,6 +1,7 @@
 /**
  * Create HTML Element before the footer when footer is created, otherwise the created HTML element append inside root element
  * Create HTML Element for creating page
+ * Shound not be used to create component inside page
  * @param {string} elementName html tag name
  * @returns HTMLElement
  */
