@@ -1,0 +1,6 @@
+{
+    "liveServer.settings.file": "./public/index.html",
+    "emmet.includeLanguages": {
+        "javascript": "html"
+    }
+}
