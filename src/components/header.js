@@ -1,7 +1,7 @@
-import {createElement, createLink} from "../app/index.js";
+import {createElementInsideRoot, createLink} from "../app/index.js";
 
 const header = () => {
-  const header = createElement('header');
+  const header = createElementInsideRoot('header');
   header.setAttribute('data-element-type', 'header');
   header.innerHTML = html`
     <header>

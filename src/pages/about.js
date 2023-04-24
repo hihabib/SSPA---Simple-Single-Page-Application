@@ -1,7 +1,7 @@
-import {createPage} from "../app/index.js";
+import {createElementInsideRoot} from "../app/index.js";
 
 const about = () => {
-    const div = createPage('div');
+    const div = createElementInsideRoot('div');
     div.innerHTML = html`
     <h1>I am About page</h1>
     `

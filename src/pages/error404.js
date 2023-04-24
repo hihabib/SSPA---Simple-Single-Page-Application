@@ -1,7 +1,7 @@
-import { createPage } from "../app/index.js"
+import { createElementInsideRoot } from "../app/index.js"
 
 const error404 = () => {
-    const div = createPage('div');
+    const div = createElementInsideRoot('div');
     div.innerHTML = html`
         <h1>404 not found</h1>
     `

@@ -1,7 +1,7 @@
-import { createPage } from "../app/index.js"
+import { createElementInsideRoot } from "../app/index.js"
 
 const contact = () => {
-    const div = createPage();
+    const div = createElementInsideRoot();
 
     div.innerHTML = html`
         <h1>This is contact page</h1>

@@ -4,7 +4,7 @@
  * @param {string} elementName html tag name
  * @returns HTMLElement
  */
-const createPage = (elementName = 'div') => {
+const createElementInsideRoot = (elementName = 'div') => {
     if(document.querySelector('[data-element-type="page"]')){
         document.querySelector('[data-element-type="page"]').remove();
     }
@@ -19,4 +19,4 @@ const createPage = (elementName = 'div') => {
     }
     return element;
 }
-export default createPage;
+export default createElementInsideRoot;
