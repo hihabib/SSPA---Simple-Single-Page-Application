@@ -5,4 +5,4 @@ import createElementInsideRoot from "./createElementInsideRoot.js";
 // index file of core library
 // to use html with es6-string-html extension on VSCode
 window.html = String.raw;
-export {SPAInit, createLink, createElementInsideRoot, createFooterElement}
+export { SPAInit, createLink, createElementInsideRoot, createFooterElement };
