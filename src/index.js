@@ -10,7 +10,7 @@ window.router = SPAInit(
   () => {
     header();
   },
-  (currentLocation, _currentHistory) => {
+  (currentLocation) => {
     // Handle Routes
     switch (currentLocation.pathname) {
       case "/":
@@ -30,5 +30,3 @@ window.router = SPAInit(
     footer();
   }
 );
-
-Array().map()
